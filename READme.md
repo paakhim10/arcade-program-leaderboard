@@ -4,7 +4,7 @@ This project is a leaderboard application for tracking high scores in Google Arc
 
 ## Official Website Link
 
-[Google Arcade Leaderboard 2025](https://the-arcade-leaderboard-2025.streamlit.app/)
+[Google Arcade Leaderboard 2025](https://arcade-program-leaderboard.streamlit.app/)
 
 ## Features
 
