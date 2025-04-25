@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 date = "April 25, 2025"
-file_date = "25 Apr"
+date_file = "25 Apr"
 # Set page layout to wide
 st.set_page_config(layout="wide")
 
@@ -379,7 +379,7 @@ def main():
         st.session_state.search_results = None
     
     # Load CSV and process data
-    csv_path = f"./progress_report/GCAF25C1-IN-T3K-Y7E [{file_date}].csv"
+    csv_path = f"./progress_report/GCAF25C1-IN-T3K-Y7E [{date_file}].csv"
     df = pd.read_csv(csv_path)
     
     # Select & rename columns
